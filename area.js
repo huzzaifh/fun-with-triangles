@@ -1,4 +1,4 @@
-var lengthSide=document.querySelectorAll(".length");
+var lengthSide=document.querySelectorAll(".ab");
 var buttonClick=document.querySelector("#button-click");
 var result=document.querySelector("#answer");
 
@@ -11,6 +11,6 @@ function calculateArea(){
 }
 
 function calculateBoth(a,b){
- var area=a*b;
- return area;
+ var area1=a*b;
+ return area1;
 }
